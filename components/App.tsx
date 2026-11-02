@@ -102,9 +102,9 @@ export default function App({ page }: { page: "home" | "videos" }) {
   const card = (v: Video) => (
     <article className="video-card" id={`video-${v.id}`} key={v.id}>
       <div className="poster">
-        {selected?.id === v.id && playing && v.localUrl ? (
+        {selected?.id === v.id && playing && v.videoUrl ? (
           <LocalVideoPlayer
-            src={v.localUrl}
+            src={v.videoUrl}
             title={v.title[language]}
             preview={!entitled}
             onUnlock={() =>

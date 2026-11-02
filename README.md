@@ -22,7 +22,7 @@ The server creates a subscription with a **₹1 one-time upfront item** and a st
 
 The intended pricing is ₹1 once, then ₹699 every three months starting one day later. Payment wording is addressed to a parent or guardian. The trial page treats the Start Trial tap as consent after showing the terms. Hindi copy needs native-speaker review before launch.
 
-The user-provided `youtu.be/VX9gMj51Y4w` URL is included as a Hindi family-story entry in the Videos catalog. It remains public and can only be used for preview/sample content. It cannot be protected by this checkout. The local `public/videos/video1.mp4` is also listed in the catalog with a generated thumbnail and the same 30-second in-site preview. Files under `public` are directly accessible by URL, so the local video is not protected paid content either.
+The user-provided `youtu.be/VX9gMj51Y4w` URL is included as a Hindi family-story entry in the Videos catalog. It remains public and can only be used for preview/sample content. It cannot be protected by this checkout. The new story uses a Cloudinary MP4 and a Cloudinary-generated thumbnail with the same 30-second in-site preview. The public Cloudinary URL is directly accessible, so this is not protected paid content either.
 
 ## Preview behavior
 

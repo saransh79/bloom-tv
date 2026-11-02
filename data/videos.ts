@@ -3,8 +3,11 @@ const youtube = (id: string) => `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
 export const videos: Video[] = [
   {
     id: "v1",
-    slug: "new-story",
-    title: { en: "A new story", hi: "एक नई कहानी" },
+    slug: "diwali-patakhe-competition",
+    title: {
+      en: "Diwali patakhe competition",
+      hi: "दिवाली पटाखों की प्रतियोगिता",
+    },
     summary: {
       en: "Watch the latest story in the Bloom library.",
       hi: "ब्लूम लाइब्रेरी की नई कहानी देखें।",
@@ -12,8 +15,10 @@ export const videos: Video[] = [
     topic: "family",
     spokenLanguage: "hi",
     durationSeconds: 562,
-    thumbnailUrl: "/videos/video1.jpg",
-    localUrl: "/videos/video1.mp4",
+    thumbnailUrl:
+      "https://res.cloudinary.com/djbxurukv/video/upload/so_5,w_1280,h_720,c_fill/v1793642821/videos/video1.jpg",
+    videoUrl:
+      "https://res.cloudinary.com/djbxurukv/video/upload/v1793642821/videos/video1.mp4",
     ageGuidance: "Review before children watch",
     featured: true,
     published: true,

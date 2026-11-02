@@ -9,7 +9,7 @@ export type Video = {
   spokenLanguage: Language;
   durationSeconds: number;
   thumbnailUrl: string;
-  localUrl?: string;
+  videoUrl?: string;
   youtubeId?: string;
   previewYoutubeId?: string;
   ageGuidance: string;
